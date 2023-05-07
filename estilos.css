@@ -15,14 +15,226 @@
     margin: 0;
     padding: 0;
 }
+/* ESTILOS GENERALES */
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
 }
-/* ESTILO PARA EL FONDO DE LA IMAGEN DE PERFIL */
-/* div{
+header{
+    background-color: var(--color-negro);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+nav{
+    display: flex;
+    gap: 6rem;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 4.5rem;
+    color: var(--color-blanco);
+}
+span{
+    color: var(--color-naranja-claro);
+}
+ul{
+    list-style: none;
+}
+/* FIN ESTILOS GENERALES */
+
+/* HEADER */
+nav a{
+    color: var(--color-blanco);
+    position: relative;
+}
+nav a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: var(--color-naranja-claro);
+    top: 21px;
+    transition: all 250ms;
+}
+nav a:hover::before{
+    width: 50%;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0rem 0.5rem 0rem;
+}
+.header-izq{
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+.encabezado button{
+    background-color: var(--color-naranja-claro);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-naranja-claro);
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.1rem 2.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.encabezado button:hover{
+    background-color: transparent;
+    color: var(--color-naranja-claro);
+}
+/* FIN HEADER */
+
+/* HERO */
+.section-hero{
+    width: 100%;
+    background-color: var(--color-negro);
+}
+.hero{
+    width: 80%;
+    margin: 8.5rem auto 0rem;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+.hero-textos{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hero-textos p{
+    color: var(--color-blanco);
+    letter-spacing: 0.3rem;
+}
+.hero-textos a{
+    background-color: transparent;
+    border: 1px solid var(--color-naranja-claro);
+    color: var(--color-naranja-claro);
+    padding: 0.5rem 1.7rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    width: fit-content;
+    transition: all 250ms;
+}
+.hero-textos a:hover{
+    background-color: var(--color-naranja-claro);
+    color: var(--color-blanco);
+}
+.hero-imagen{
+    flex-basis: 30%;
+    position: relative;
+    z-index: 3;
+}
+.imagen-fondo{
+    position: absolute;
     background-color: #FF6044;
     border-radius: 50% 50% 8% 92% / 43% 90% 10% 57%  ;
-    height: 20rem;
+    height: 22rem;
+    width: 25rem;
+    top: 10.25rem;
+    left: 0.4rem;
+    z-index:-1;
+    transform: rotate(-6deg);
+}
+.redes-hero{
+    flex: 10%;
+}
+.redes-hero ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3rem;
+}
+.redes-hero li{
+    transition: all 250ms;
+}
+.redes-hero li:hover{
+    cursor: pointer;
+    filter:drop-shadow(0px 0px 10px var(--color-naranja-claro));
+}
+.redes-hero i{
+    background-color: var(--color-blanco);
+    border-radius: 50%;
+    padding: 0.4rem 0.6rem;
+    font-size: 1.5rem;
+}
+.redes-hero img{
+    background-color: var(--color-blanco);
+    border-radius: 50%;
+    padding: 0.5rem 0.6rem;
+    width: 24px;
+    height: 24px;
+}
+/* FIN HERO */
+
+/* SOBRE MI */
+.sobre-mi{
+    width: 100%;
+    background-color: var(--color-gris-oscuro);
+    padding: 3rem 0rem;
+}
+.about-me{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+}
+.img-sobremi{
+    flex-basis: 30%;
+}
+.about-me img{
+    background-color: var(--color-naranja-claro);
+    border-radius: 50%;
     width: 21rem;
-} */
+}
+.sobremi-textos{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.sobremi-textos button{
+    width: fit-content;
+}
+.sobremi-textos h2{
+    color: var(--color-blanco);
+    position: relative;
+}
+.sobremi-textos h2::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    background-color: var(--color-naranja-claro);
+    top: 2rem;
+}
+.parrafo-naranja{
+    color: var(--color-naranja-claro);
+}
+.sobremi-textos p{
+    color: var(--color-gris-claro);
+}
+.sobremi-textos button{
+    background-color: var(--color-naranja-claro);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-naranja-claro);
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.1rem 2.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.sobremi-textos button:hover{
+    background-color: transparent;
+    color: var(--color-naranja-claro);
+}
+/* FIN SOBRE MI */
