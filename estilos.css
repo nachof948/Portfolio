@@ -238,3 +238,66 @@ nav a:hover::before{
     color: var(--color-naranja-claro);
 }
 /* FIN SOBRE MI */
+
+/* MIS SERVICIOS */
+.mis-servicios{
+    width: 100%;
+    background-color: var(--color-negro);
+    padding: 4rem 0rem;
+}
+.my-services{
+    margin: 0 auto;
+    width: 80%;
+}
+.my-services h2{
+    color: var(--color-blanco);
+    margin-bottom: 3rem;
+    position: relative;
+}
+.my-services h2::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background-color: var(--color-naranja-claro);
+    top: 2.5rem;
+}
+.servicios{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-gris-oscuro);
+    flex-basis: 33%;
+    border-radius: 10px;
+    gap: 2rem;
+    padding: 1rem 0.5rem 5rem;
+    transition: all 250ms;
+    cursor: pointer;
+}
+.servicio h3{
+    color: var(--color-blanco);
+}
+.servicio p{
+    color: var(--color-gris-claro);
+    margin-top: 0.5rem;
+}
+.servicio:hover{
+    background-color: var(--color-naranja-claro);
+}
+.servicio:hover img,
+.servicio:hover p{
+    color: var(--color-blanco);
+}
+.servicio img{
+    width: 7rem;
+    height: 7rem;
+}
+.servicios-textos{
+    width: 80%;
+}
+/* FIN MIS SERVICIOS */
