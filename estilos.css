@@ -301,3 +301,59 @@ nav a:hover::before{
     width: 80%;
 }
 /* FIN MIS SERVICIOS */
+
+/* MI PORTFOLIO */
+.mi-portfolio{
+    width: 100%;
+    background-color: var(--color-negro);
+}
+.my-portfolio{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+}
+.my-portfolio h2{
+    color: var(--color-blanco);
+    position: relative;
+    margin-bottom: 2rem;
+}
+.my-portfolio h2::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 4px;
+    background-color: var(--color-naranja-claro);
+    top: 2.5rem;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.ejemplo{
+    position: relative;
+}
+.portfolio img{
+    width: 752px;
+    height: 330px;
+    border-radius: 10px;
+}
+.sobre-img{
+    position: absolute;
+    color: var(--color-blanco);
+    background-color: var(--color-negro);
+    width: 47.1rem;
+    height: 20.6rem;
+    border-radius: 10px;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.sobre-img p{
+    font-weight: 600;
+    font-size: 2rem;
+}
+/* FIN PORTFOLIO */
