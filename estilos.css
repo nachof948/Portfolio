@@ -1,0 +1,28 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* VARIABLES */
+:root{
+    --color-naranja-claro: #F26C4F;
+    --color-naranja-intenso: #FF6143;
+    --color-negro: #222222;
+    --color-gris-oscuro: #262626;
+    --color-gris-claro: #6A6A6A;
+    --color-blanco: #FFFFFF;
+    
+}
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+/* ESTILO PARA EL FONDO DE LA IMAGEN DE PERFIL */
+/* div{
+    background-color: #FF6044;
+    border-radius: 50% 50% 8% 92% / 43% 90% 10% 57%  ;
+    height: 20rem;
+    width: 21rem;
+} */
