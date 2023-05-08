@@ -19,9 +19,9 @@
                 <a href="#"><img src="Imagenes/Logo.png" alt="Logo personal"></a>
                 <nav>
                     <a href="#">Home</a>
-                    <a href="#">Acerca</a>
-                    <a href="#">Servicios</a>
-                    <a href="#">Portfolio</a>
+                    <a href="#acerca">Acerca</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#portfolio">Portfolio</a>
                 </nav>
             </div>
             <button type="submit">
@@ -55,7 +55,7 @@
         <!-- FIN HERO -->
         
         <!-- SOBRE MI -->
-        <section class="sobre-mi">
+        <section class="sobre-mi" id="acerca">
             <div class="about-me">
                 <div class="img-sobremi">
                     <img src="Imagenes/Imagen Sobre Mi.png" alt="Foto de Ignacio Fernandez" width="250px">
@@ -74,7 +74,7 @@
         <!-- FIN SOBRE MI -->
         
         <!-- MIS SERVICIOS -->
-        <section class="mis-servicios">
+        <section class="mis-servicios" id="servicios">
             <div class="my-services">
 
                 <h2>Mis Servicios</h2>
@@ -109,7 +109,7 @@
         <!-- FIN MIS SERVICIOS -->
 
         <!-- MI PORTFOLIO -->
-        <section class="mi-portfolio">
+        <section class="mi-portfolio" id="portfolio">
             <div class="my-portfolio">
                     <h2>Mi Portfolio</h2>
             
@@ -154,41 +154,44 @@
 
         <!-- CONTACTO -->
         <section class="contacto">
-            <div class="contacto-der">
-                <div class="contacto-titulo">
-                    <h2>Let's make something <span>phenomenal</span>.</h2>
-                </div>
-                <div class="contactos">
-                    <div>
-                        <i class="bi bi-telephone-fill"></i>
-                        <p>+ 54 2494-358110</p>
+            <div class="contact">
+                <div class="contacto-der">
+                    <div class="contacto-titulo">
+                        <h2>Let's make something <span>phenomenal</span>.</h2>
                     </div>
+                    <div class="contactos">
+                        <div class="medio-contacto">
+                            <i class="bi bi-telephone-fill"></i>
+                            <p>+ 54 2494-358110</p>
+                        </div>
                 
-                    <div>
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:correo@ejemplo.com">nachof948@gmail.com</a>
-                    </div>
+                        <div class="medio-contacto">
+                            <i class="bi bi-envelope-fill"></i>
+                            <a href="mailto:correo@ejemplo.com">nachof948@gmail.com</a>
+                        </div>
                 
-                    <div>
-                        <i class="bi bi-globe"></i>
-                        <a href="#">www.ignaciofernandezdeveloper.com.ar</a>
+                        <div class="medio-contacto">
+                            <i class="bi bi-globe"></i>
+                            <a href="#">www.ignaciofernandezdeveloper.com.ar</a>
+                        </div>
+                    </div>
+                    <div class="contacto-redes">
+                        <a href="#"><img src="Imagenes/Logo de Facebook.ico" alt="Logo de Facebook" width="16px"></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-behance"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
                     </div>
                 </div>
-                <div class="contacto-redes">
-                    <a href="#"><img src="Imagenes/Logo de Facebook.ico" alt="Logo de Facebook" width="16px"></a>
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-behance"></i></a>
-                    <a href="#"><i class="bi bi-github"></i></a>
+                <div class="contacto-izq">
+                    <form action="#" class="formulario">
+                        <input type="text" placeholder="Tu Nombre" required>
+                        <input type="email" placeholder="Tu Correo Electronico" required>
+                        <textarea name="#" id="#" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
             </div>
-            <div class="contacto-izq">
-                <form action="#" class="formulario">
-                    <input type="text" placeholder="Tu Nombre">
-                    <input type="email" placeholder="Tu Correo Electronico">
-                    <textarea name="#" id="#" cols="30" rows="10" placeholder="Mensaje..."></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
+
 
         </section>
         <!-- FIN CONTACTO -->
