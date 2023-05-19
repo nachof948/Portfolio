@@ -452,7 +452,7 @@ nav a:hover::before{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .contacto-der{
     flex-basis: 40%;
@@ -462,8 +462,8 @@ nav a:hover::before{
 }
 .contacto-titulo h2{
     color: var(--color-blanco);
-    font-size: 2.2rem;
-    width: 70%;
+    font-size: 2.5rem;
+    width: 80%;
 }
 .contacto-titulo span{
     color: var(--color-gris-oscuro);
@@ -471,7 +471,7 @@ nav a:hover::before{
 .contactos{
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1.2rem;
     align-items: flex-start;
     margin-top: 0.9rem;
 }
@@ -484,6 +484,8 @@ nav a:hover::before{
 .medio-contacto p,
 .medio-contacto i{
     color: var(--color-blanco);
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 .contacto-redes{
     display: flex;
@@ -494,14 +496,23 @@ nav a:hover::before{
     color: var(--color-naranja-claro);
     background-color: var(--color-negro);
     border-radius: 50%;
-    padding: 0.4rem 0.6rem;
+    padding: 0.6rem 0.69rem;
     font-size: 1.5rem;
+    border: 1px solid var(--color-negro);
+    transition: all 250ms;
 }
-.contacto-redes img{
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
+.contacto-redes i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 250ms;
 }
+.contacto-redes a:hover,
+.contacto-redes a:hover i{
+    color: var(--color-negro);
+    background-color: transparent;
+}
+
 .contacto-izq{
     flex-basis: 60%;
     box-shadow: 0px 1px 3px var(--color-gris-claro);
@@ -519,6 +530,10 @@ input{
     border: none;
     border-radius: 5px;
     width: 90%;
+    color: var(--color-naranja-claro);
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 input::placeholder{
     color: var(--color-naranja-claro);
@@ -526,6 +541,7 @@ input::placeholder{
     font-weight: 600;
     font-size: 1.1rem;
 }
+
 textarea{
     padding: 0.6rem 0.6rem;
     border: none;
@@ -548,10 +564,18 @@ textarea::placeholder{
     border: 1px solid var(--color-blanco);
     color: var(--color-blanco);
     font-family: 'Urbanist', sans-serif;
-    padding: 0.7rem 2.3rem;
+    padding: 0.65rem 2.3rem;
     border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
     margin: 1.2rem 2.2rem 0.3rem 0rem;
+    transition: all 250ms;
     cursor: pointer;
+}
+.contacto-izq button:hover{
+    color: var(--color-naranja-claro);
+    background-color: var(--color-blanco);
 }
 /* FIN CONTACTO */
 
