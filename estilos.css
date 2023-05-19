@@ -274,6 +274,7 @@ nav a:hover::before{
 .my-services h2{
     color: var(--color-blanco);
     margin-bottom: 3rem;
+    font-size: 1.8rem;
     position: relative;
 }
 .my-services h2::before{
@@ -303,13 +304,28 @@ nav a:hover::before{
 }
 .servicio h3{
     color: var(--color-blanco);
+    font-size: 1.5rem;
 }
 .servicio p{
     color: var(--color-gris-claro);
     margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+.svg-blanco{
+    display: none;
 }
 .servicio:hover{
     background-color: var(--color-naranja-claro);
+}
+.web:hover .svg-blanco,
+.ux-ui:hover .svg-blanco,
+.branding:hover .svg-blanco{
+    display: block;
+}
+.web:hover .svg-naranja,
+.ux-ui:hover .svg-naranja,
+.branding:hover .svg-naranja{
+    display: none;
 }
 .servicio:hover img,
 .servicio:hover p{
