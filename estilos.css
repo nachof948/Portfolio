@@ -6,7 +6,7 @@
     --color-naranja-intenso: #FF6143;
     --color-negro: #222222;
     --color-gris-oscuro: #262626;
-    --color-gris-claro: #6A6A6A;
+    --color-gris-claro: #818181;
     --color-blanco: #FFFFFF;
     
 }
@@ -14,13 +14,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Urbanist', sans-serif;
 }
 /* ESTILOS GENERALES */
 html{
     scroll-behavior: smooth;
-}
-body{
-    font-family: 'Urbanist', sans-serif;
 }
 header{
     background-color: var(--color-negro);
@@ -83,7 +81,8 @@ nav a:hover::before{
     color: var(--color-blanco);
     border: 1px solid var(--color-naranja-claro);
     font-family: 'Urbanist', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 1px;
     padding: 1.1rem 2.5rem;
     font-size: 1rem;
     border-radius: 5px;
@@ -118,19 +117,20 @@ nav a:hover::before{
     color: var(--color-blanco);
     letter-spacing: 0.3rem;
 }
-.hero-textos a{
+.hero-textos button{
     background-color: transparent;
     border: 2px solid var(--color-naranja-claro);
     color: var(--color-naranja-claro);
-    padding: 0.6rem 1.9rem;
+    padding: 0.6rem 2rem;
     font-weight: 600;
     font-size: 0.9rem;
     letter-spacing: 2px;
     border-radius: 5px;
     width: fit-content;
+    cursor: pointer;
     transition: all 250ms;
 }
-.hero-textos a:hover{
+.hero-textos button:hover{
     background-color: var(--color-naranja-claro);
     color: var(--color-blanco);
 }
@@ -140,7 +140,7 @@ nav a:hover::before{
     z-index: 3;
 }
 .hero-imagen img{
-    width: 23.3rem;
+    width: 23.5rem;
     height: 38.5rem;
 }
 .imagen-fondo{
@@ -207,7 +207,7 @@ nav a:hover::before{
 .about-me img{
     background-color: var(--color-naranja-claro);
     border-radius: 50%;
-    width: 21rem;
+    width: 24rem;
 }
 .sobremi-textos{
     flex-basis: 70%;
@@ -221,6 +221,8 @@ nav a:hover::before{
 .sobremi-textos h2{
     color: var(--color-blanco);
     position: relative;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
 }
 .sobremi-textos h2::before{
     content: "";
@@ -228,20 +230,27 @@ nav a:hover::before{
     width: 22px;
     height: 4px;
     background-color: var(--color-naranja-claro);
-    top: 2rem;
+    top: 2.3rem;
 }
 .parrafo-naranja{
     color: var(--color-naranja-claro);
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 .sobremi-textos p{
+    font-weight: 600;
+    font-size: 1.1rem;
     color: var(--color-gris-claro);
 }
 .sobremi-textos button{
     background-color: var(--color-naranja-claro);
     color: var(--color-blanco);
     border: 1px solid var(--color-naranja-claro);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Urbanist', sans-serif;
     padding: 1.1rem 2.5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
     border-radius: 5px;
     cursor: pointer;
     transition: all 250ms;
