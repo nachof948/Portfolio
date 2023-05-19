@@ -33,6 +33,7 @@ nav{
 }
 a{
     text-decoration: none;
+    color: var(--color-negro);
 }
 h1{
     font-size: 4.5rem;
