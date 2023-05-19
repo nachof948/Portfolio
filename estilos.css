@@ -103,7 +103,7 @@ nav a:hover::before{
 }
 .hero{
     width: 80%;
-    margin: 8.5rem auto 0rem;
+    margin: 6rem auto 0rem;
     display: flex;
     align-items: center;
     padding: 3rem 0rem;
@@ -140,8 +140,8 @@ nav a:hover::before{
     z-index: 3;
 }
 .hero-imagen img{
-    width: 24vw;
-    height: 40rem;
+    width: 23rem;
+    height: 37.60rem;
 
 }
 .imagen-fondo{
@@ -150,12 +150,12 @@ nav a:hover::before{
                    /* border-radius: 44% 56% 10% 90% / 39% 52% 48% 61%; */ /* POSIBLES */
                    /* border-radius: 44% 56% 10% 90% / 39% 63% 37% 61%; */ /* POSIBLES */
     border-radius: 51% 49% 10% 90% / 38% 63% 37% 62%; /* DEFINITIVO */
-    height: 22rem;
+    height: 23.6rem;
     width: 29rem;
-    top: -9rem;
+    top: 13.2rem;
     right: 3rem;
     z-index:-1;
-    transform: rotate(-4deg);
+    transform: rotate(2deg);
 }
 .redes-hero{
     flex: 10%;
