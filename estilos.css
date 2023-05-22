@@ -94,8 +94,37 @@ nav a:hover::before{
     background-color: transparent;
     color: var(--color-naranja-claro);
 }
+.menu-responsive{
+    display: none;
+}
+.menu-responsive i{
+    color: var(--color-naranja-claro);
+    font-size: 2.7rem;
+}
 /* FIN HEADER */
 
+/* MEDIA-QUERIES HEADER */
+@media (max-width:1116px) {
+    nav a{
+        font-size: 0.9rem;
+    }
+    .encabezado button{
+        padding: 0.9rem 2rem;
+        font-size: 0.9rem;
+    }
+}
+@media (max-width:1055px) {
+    nav{
+        display: none;
+    }
+    .encabezado button{
+        display: none;
+    }
+    .menu-responsive{
+        display: block;
+    }
+}
+/* FINMEDIA-QUERIES HEADER */
 /* HERO */
 .section-hero{
     width: 100%;
@@ -141,7 +170,7 @@ nav a:hover::before{
     z-index: 3;
 }
 .hero-imagen img{
-    width: 30rem;
+    width: 31rem;
     height: 39rem;
 }
 .imagen-fondo{
@@ -187,6 +216,50 @@ nav a:hover::before{
     height: 24px;
 }
 /* FIN HERO */
+/* MEDIA-QUERIES HERO */
+@media (max-width:1668px){
+    h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width:1551px){
+    .hero-imagen img{
+        width: 26rem;
+        height: 33rem;
+    }
+}
+@media (max-width:1451px){
+    h1{
+        font-size: 3.6rem;
+    }
+}
+@media (max-width:1358px){
+    .hero-imagen img{
+        width: 22rem;
+        height: 28rem;
+    }
+}
+@media (max-width:1290px) {
+    h1{
+        font-size: 3.2rem;
+    }
+}
+@media (max-width:1194px) {
+    .hero-imagen img{
+        width: 19rem;
+        height: 25rem;
+    }
+}
+@media (max-width:1146px) {
+    h1{
+        font-size: 2.9rem;
+    }
+    .hero-textos p{
+        font-size: 0.8rem;
+    }
+}
+/* FIN MEDIA-QUERIES HERO */
+
 
 /* SOBRE MI */
 .sobre-mi{
