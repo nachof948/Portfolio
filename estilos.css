@@ -371,6 +371,45 @@ nav a:hover::before{
 }
 /* FIN SOBRE MI */
 
+/* MEDIA-QUERIES SOBRE-MI */
+
+@media (max-width:1440px) {
+    .sobremi-textos{
+        gap: 1rem;
+        flex-basis: 80%;
+    }
+    .sobremi-textos p{
+        font-size: 1rem;
+    }
+    .about-me img{
+        width: 21rem;
+    }
+}
+@media (max-width:1055px){
+    .about-me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me img{
+        width: 25rem;
+    }
+    .sobremi-textos h2{
+        font-size: 2.2rem;
+    }
+    .sobremi-textos h2::before{
+        top: 2.7rem;
+    }
+    .parrafo-naranja{
+        font-size: 1.3rem;
+    }
+    .sobremi-textos p{
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+
+/* FIN MEDIA-QUERIES SOBRE-MI */
+
 /* MIS SERVICIOS */
 .mis-servicios{
     width: 100%;
