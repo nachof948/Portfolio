@@ -448,6 +448,8 @@ nav a:hover::before{
     border-radius: 10px;
     gap: 2rem;
     padding: 1rem 0.5rem 5rem;
+    width: 20rem;
+    height: 19rem;
     transition: all 250ms;
     cursor: pointer;
 }
@@ -468,9 +470,6 @@ nav a:hover::before{
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
-    width: 6.4rem;
-    height: 6.4rem;
-    padding: 0.30rem 0rem;
     transform: rotateY(180deg);
 }
 .web:hover .svg-blanco,
@@ -495,6 +494,38 @@ nav a:hover::before{
     width: 80%;
 }
 /* FIN MIS SERVICIOS */
+
+/* MEDIA-QUERIES MIS-SERVICIOS */
+
+@media(max-width:1138px){
+    .servicios-textos{
+        width: 90%;
+    }
+}
+@media (max-width:1055px) {
+    .my-services h2{
+        font-size: 2.2rem;
+    }
+    .my-services h2::before{
+        top: 2.7rem;
+    }
+    .servicios h3{
+        font-size: 1.7rem;
+    }
+    .servicio p{
+        font-size: 1.2rem;
+    }
+    .servicios{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+        padding: 2rem 0rem 1rem;
+    }
+    .servicio{
+        flex-basis: 43%;
+    }
+}
+/* FIN MEDIA-QUERIES MIS-SERVICIOS */
 
 /* MI PORTFOLIO */
 .mi-portfolio{
