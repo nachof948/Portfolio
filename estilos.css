@@ -320,9 +320,10 @@ nav a:hover::before{
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
-    width: 6.5rem;
-    height: 6.5rem;
-    padding: 0.25rem 0rem;
+    width: 6.4rem;
+    height: 6.4rem;
+    padding: 0.30rem 0rem;
+    transform: rotateY(180deg);
 }
 .web:hover .svg-blanco,
 .ux-ui:hover .svg-blanco,
@@ -381,8 +382,8 @@ nav a:hover::before{
     overflow: hidden;
 }
 .portfolio img{
-    width: 752px;
-    height: 330px;
+    width: 38vw;
+    height: 35.5vh;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -522,7 +523,7 @@ nav a:hover::before{
 
 .contacto-izq{
     flex-basis: 60%;
-    box-shadow: 0px 1px 3px var(--color-gris-claro);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
     border-radius: 5px;
 }
 .formulario{
