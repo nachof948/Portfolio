@@ -122,6 +122,7 @@ nav a:hover::before{
     }
     .menu-responsive{
         display: block;
+        cursor: pointer;
     }
 }
 /* FINMEDIA-QUERIES HEADER */
