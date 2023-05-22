@@ -258,6 +258,41 @@ nav a:hover::before{
         font-size: 0.8rem;
     }
 }
+@media (max-width:1055px) {
+    br{
+        display: none;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+        padding: 6rem 0rem 2rem;
+    }
+    .hero-textos h1{
+        width: 80%;
+        align-self: center;
+        font-size: 4.2rem;
+    }
+    .hero-textos p{
+        font-size: 1rem;
+    }
+    .hero-textos button{
+        align-self: center;
+        padding: 0.8rem 2.5rem;
+        font-size: 1rem;
+    }
+    .hero-imagen img{
+            width: 27rem;
+            height: 32rem;
+    }
+    .redes-hero ul{
+        flex-direction: row;
+    }
+    .redes-hero i{
+        font-size: 1.8rem;
+    }
+}
 /* FIN MEDIA-QUERIES HERO */
 
 
