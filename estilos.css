@@ -405,8 +405,8 @@ nav a:hover::before{
     position: absolute;
     color: var(--color-blanco);
     background-color: transparent;
-    width: 47.15rem;
-    height: 20.6rem;
+    width: 47.30rem;
+    height: 20.7rem;
     border-radius: 10px;
     top: 0rem;
     display: flex;
@@ -460,7 +460,7 @@ nav a:hover::before{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    align-items: flex-start;
+    align-items: first baseline;
 }
 .contacto-der{
     flex-basis: 40%;
@@ -531,7 +531,7 @@ nav a:hover::before{
     flex-direction: column;
     align-items: center;
     gap: 0.4rem;
-    padding: 1rem 0.2rem;
+    padding: 1.8rem 0.2rem;
 }
 input{
     padding: 1.2rem 0.6rem;
