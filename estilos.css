@@ -570,7 +570,7 @@ nav a:hover::before{
     position: absolute;
     color: var(--color-blanco);
     background-color: var(--color-gris-oscuro);
-    width: 47.3rem;
+    width: 38vw;
     height: 20.8rem;
     border-radius: 10px;
     top: 0rem;
@@ -584,7 +584,7 @@ nav a:hover::before{
     position: absolute;
     color: var(--color-blanco);
     background-color: transparent;
-    width: 47.30rem;
+    width: 38vw;
     height: 20.7rem;
     border-radius: 10px;
     top: 0rem;
@@ -628,6 +628,33 @@ nav a:hover::before{
     background-color: var(--color-naranja-claro);
 }
 /* FIN PORTFOLIO */
+
+/* MEDIA-QUERIES PORTFOLIO */
+@media(max-width:1400px){
+    .sobre-img p{
+        font-size: 2rem;
+    }
+}
+@media(max-width:1055px){
+    .my-portfolio h2{
+        font-size: 2.2rem;
+    }
+    .portfolio{
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0rem 1rem;
+    }
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        width: 70vw;
+    }
+    .sobre-img p{
+        font-size: 2.5rem;
+    }
+}
+/* FIN MEDIA-QUERIES PORTFOLIO */
+
 
 /* CONTACTO */
 .contacto{
