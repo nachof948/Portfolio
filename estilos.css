@@ -715,7 +715,7 @@ nav a:hover::before{
     .fondo-img,
     .sobre-img{
         height: 31vh;
-        width: 39vw;
+        width: 38vw;
     }
 }
 @media(max-width:1400px){
