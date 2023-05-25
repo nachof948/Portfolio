@@ -282,7 +282,7 @@ nav a:hover::before{
 }
 @media (max-width:1079px){
     h1{
-        font-size: 2.7rem;
+        font-size: 2.6rem;
     }
     .hero-textos p{
         font-size: 0.7rem;
@@ -689,16 +689,17 @@ nav a:hover::before{
         width: 39vw;
     }
 }
+@media(max-width:1400px){
+    .sobre-img p{
+        font-size: 2rem;
+    }
+}
 @media (max-width:1220px) {
     .portfolio img,
     .fondo-img,
     .sobre-img{
         height: 24vh;
-    }
-}
-@media(max-width:1400px){
-    .sobre-img p{
-        font-size: 2rem;
+        width: 38vw;
     }
 }
 @media(max-width:1023px){
