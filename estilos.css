@@ -732,6 +732,7 @@ nav a:hover::before{
     width: 80%;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     align-items: first baseline;
 }
 .contacto-der{
@@ -858,6 +859,39 @@ textarea::placeholder{
     background-color: var(--color-blanco);
 }
 /* FIN CONTACTO */
+
+/* MEDIA-QUERIES CONTACTO */
+@media(max-width:1783px){
+    .contacto-titulo h2{
+        width: 90%;
+    }
+}
+@media(max-width:1585px){
+    .contacto-titulo h2{
+        font-size: 2.3rem;
+        width: 100%;
+    }
+}
+@media (max-width:1368px) {
+    .contacto-izq{
+        flex-basis: 55%;
+    }
+}
+@media (max-width:1313px){
+    .contacto-titulo h2{
+        font-size: 2.1rem;
+    }
+}
+@media (max-width:1198px) {
+    .formulario{
+        padding: 1.3rem 0.2rem;
+    }
+    .contacto-titulo h2{
+        font-size: 1.85rem;
+    }
+}
+/* FIN MEDIA-QUERIES CONTACTO */
+
 
 /* FOOTER */
 footer{
