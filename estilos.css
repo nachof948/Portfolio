@@ -615,7 +615,7 @@ nav a:hover::before{
     color: var(--color-blanco);
     background-color: var(--color-gris-oscuro);
     width: 38vw;
-    height: 20.8rem;
+    height: 35.5vh;
     border-radius: 10px;
     top: 0rem;
     opacity: 0.8;
@@ -629,7 +629,7 @@ nav a:hover::before{
     color: var(--color-blanco);
     background-color: transparent;
     width: 38vw;
-    height: 20.7rem;
+    height: 35.5vh;
     border-radius: 10px;
     top: 0rem;
     display: flex;
@@ -674,6 +674,28 @@ nav a:hover::before{
 /* FIN PORTFOLIO */
 
 /* MEDIA-QUERIES PORTFOLIO */
+@media (max-width:1650px) {
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 33vh;
+    }
+}
+@media (max-width:1457px) {
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 31vh;
+        width: 39vw;
+    }
+}
+@media (max-width:1220px) {
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 24vh;
+    }
+}
 @media(max-width:1400px){
     .sobre-img p{
         font-size: 2rem;
