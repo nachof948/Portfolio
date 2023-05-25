@@ -113,7 +113,28 @@ nav a:hover::before{
         font-size: 0.9rem;
     }
 }
-@media (max-width:1055px) {
+@media (max-width: 1290px) {
+    nav{
+        gap: 5rem;
+    }
+    .header-izq{
+        gap: 5rem;
+    }
+}
+@media (max-width: 1146px) {
+    nav{
+        gap: 4.5rem;
+    }
+}
+@media (max-width:1079px){
+    nav{
+        gap: 4rem;
+    }
+    .header-izq{
+        gap: 4rem;
+    }
+}
+@media (max-width:1023px) {
     nav{
         display: none;
     }
@@ -259,7 +280,15 @@ nav a:hover::before{
         font-size: 0.8rem;
     }
 }
-@media (max-width:1055px) {
+@media (max-width:1079px){
+    h1{
+        font-size: 2.7rem;
+    }
+    .hero-textos p{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:1023px) {
     br{
         display: none;
     }
@@ -385,7 +414,12 @@ nav a:hover::before{
         width: 21rem;
     }
 }
-@media (max-width:1055px){
+@media (max-width:1297px) {
+    .sobremi-textos p{
+        font-size: 0.85rem;
+    }
+}
+@media (max-width:1023px){
     .about-me{
         flex-direction: column;
         align-items: center;
@@ -502,7 +536,7 @@ nav a:hover::before{
         width: 90%;
     }
 }
-@media (max-width:1055px) {
+@media (max-width:1023px) {
     .my-services h2{
         font-size: 2.2rem;
     }
@@ -635,7 +669,7 @@ nav a:hover::before{
         font-size: 2rem;
     }
 }
-@media(max-width:1055px){
+@media(max-width:1023px){
     .my-portfolio h2{
         font-size: 2.2rem;
     }
