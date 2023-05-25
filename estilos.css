@@ -530,10 +530,17 @@ nav a:hover::before{
 /* FIN MIS SERVICIOS */
 
 /* MEDIA-QUERIES MIS-SERVICIOS */
-
-@media(max-width:1138px){
+@media (max-width:1400px) {
     .servicios-textos{
         width: 90%;
+    }
+    .servicios-textos p{
+        font-size: 1rem;
+    }
+}
+@media(max-width:1138px){
+    .servicios-textos{
+        width: 95%;
     }
 }
 @media (max-width:1023px) {
@@ -545,9 +552,12 @@ nav a:hover::before{
     }
     .servicios h3{
         font-size: 1.7rem;
+        text-align: center;
     }
     .servicio p{
         font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
     }
     .servicios{
         flex-wrap: wrap;
