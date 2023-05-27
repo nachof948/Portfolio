@@ -514,8 +514,53 @@ nav a:hover::before{
         font-size: 1rem;
     }
 }
+@media (max-width:890px){
+    .about-me{
+        width: 92%;
+    }
+}
 /* FIN TABLET */
 
+/* CELULAR */
+@media (max-width:563px){
+    .parrafo-naranja{
+        font-size: 1.1rem;
+    }
+    .sobremi-textos h2::before{
+        top: 2.6rem;
+    }
+    .sobremi-textos p{
+        font-size: 0.9rem;
+    }
+    
+}
+@media (max-width:477px){
+    .sobremi-textos h2{
+        font-size: 2rem;
+    }
+    .parrafo-naranja{
+        font-size: 1rem;
+    }
+    .sobremi-textos p{
+        font-size: 0.85rem;
+    }
+    .sobremi-textos button{
+        padding: 0.9rem 1.8rem;
+        font-size: 0.8rem;
+    }
+    .img-sobremi img{
+        width: 22rem;
+    }
+}
+@media (max-width:433px){
+    .parrafo-naranja{
+        font-size: 0.95rem;
+    }
+    .sobremi-textos p{
+        font-size: 0.8rem;
+    }
+}
+/* FIN CELULAR */
 /* FIN MEDIA-QUERIES SOBRE-MI */
 
 /* MIS SERVICIOS */
@@ -647,6 +692,11 @@ nav a:hover::before{
     .servicio{
         flex-basis: 80%;
         padding: 1rem 0.5rem 3rem;
+    }
+}
+@media (max-width:890px){
+    .my-services{
+        width: 92%;
     }
 }
 /* FIN MEDIA-QUERIES MIS-SERVICIOS */
@@ -802,6 +852,11 @@ nav a:hover::before{
     }
     .sobre-img p{
         font-size: 2.5rem;
+    }
+}
+@media (max-width:890px){
+    .my-portfolio{
+        width: 92%;
     }
 }
 @media (max-width:898px) {
