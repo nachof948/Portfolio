@@ -1077,6 +1077,7 @@ textarea::placeholder{
         font-size: 2.1rem;
     }
 }
+
 @media (max-width:1198px) {
     .formulario{
         padding: 1.3rem 0.2rem;
@@ -1085,6 +1086,7 @@ textarea::placeholder{
         font-size: 1.85rem;
     }
 }
+/* TABLET */
 @media (max-width:1023px){
     .contacto{
         padding: 3rem 0rem;
@@ -1130,7 +1132,20 @@ textarea::placeholder{
         font-size: 1.2rem;
     }
 }
-@media (max-width:668px) {
+@media (max-width: 890px){
+    .contact {
+    width: 92%;
+}
+}
+@media (max-width: 700px){
+    .formulario{
+        width: 90vw;
+    }
+}
+/* FIN TABLET */
+
+/* CELULAR */
+@media (max-width:614px) {
     .contacto-titulo h2{
         font-size: 1.7rem;
     }
@@ -1143,6 +1158,33 @@ textarea::placeholder{
         font-size: 1.5rem;
     }
 }
+@media (max-width:500px) {
+    .contacto-titulo h2{
+        font-size: 1.5rem;
+    }
+    .contactos i,
+    .contactos p,
+    .contactos a{
+        font-size: 1rem;
+    }
+    .contacto-redes i{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:441px) {
+    .contacto-titulo h2{
+        font-size: 1.3rem;
+    }
+    .contactos i,
+    .contactos p,
+    .contactos a{
+        font-size: 0.9rem;
+    }
+    .contacto-redes i{
+        font-size: 1.3rem;
+    }
+}
+/* FIN CELULAR */
 
 /* FIN MEDIA-QUERIES CONTACTO */
 
