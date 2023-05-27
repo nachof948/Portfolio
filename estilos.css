@@ -288,6 +288,7 @@ nav a:hover::before{
         font-size: 0.7rem;
     }
 }
+/* TABLET */
 @media (max-width:1023px) {
     br{
         display: none;
@@ -313,7 +314,7 @@ nav a:hover::before{
         font-size: 1rem;
     }
     .hero-imagen img{
-            width: 27rem;
+            width: 26rem;
             height: 32rem;
     }
     .redes-hero ul{
@@ -323,7 +324,6 @@ nav a:hover::before{
         font-size: 1.8rem;
     }
 }
-/* TABLET */
 @media (max-width:980px){
     .hero-textos h1{
         width: 100%;
@@ -345,7 +345,6 @@ nav a:hover::before{
         font-size: 0.7rem;
     }
 }
-
 /* FIN MEDIA-QUERIES HERO */
 
 
@@ -392,7 +391,7 @@ nav a:hover::before{
     width: 22px;
     height: 4px;
     background-color: var(--color-naranja-claro);
-    top: 2.3rem;
+    top: 2.6rem;
 }
 .parrafo-naranja{
     color: var(--color-naranja-claro);
@@ -442,6 +441,12 @@ nav a:hover::before{
         font-size: 0.85rem;
     }
 }
+@media (max-width: 1116px) {
+    .sobremi-textos button{
+        padding: 0.9rem 2rem;
+        font-size: 0.9rem;
+    }
+}
 @media (max-width:1023px){
     .about-me{
         flex-direction: column;
@@ -454,7 +459,7 @@ nav a:hover::before{
         font-size: 2.2rem;
     }
     .sobremi-textos h2::before{
-        top: 2.7rem;
+        top: 3rem;
     }
     .parrafo-naranja{
         font-size: 1.3rem;
@@ -489,7 +494,7 @@ nav a:hover::before{
     width: 24px;
     height: 4px;
     background-color: var(--color-naranja-claro);
-    top: 2.5rem;
+    top: 2.6rem;
 }
 .servicios{
     display: flex;
@@ -507,7 +512,7 @@ nav a:hover::before{
     padding: 1rem 0.5rem 5rem;
     width: 20rem;
     height: 19rem;
-    transition: all 250ms;
+    transition: all 100ms;
     cursor: pointer;
 }
 .servicio h3{
@@ -571,7 +576,7 @@ nav a:hover::before{
         font-size: 2.2rem;
     }
     .my-services h2::before{
-        top: 2.7rem;
+        top: 3rem;
     }
     .servicios h3{
         font-size: 1.7rem;
@@ -622,7 +627,7 @@ nav a:hover::before{
     width: 24px;
     height: 4px;
     background-color: var(--color-naranja-claro);
-    top: 2.5rem;
+    top: 2.6rem;
 }
 .portfolio{
     display: flex;
@@ -715,7 +720,7 @@ nav a:hover::before{
     .fondo-img,
     .sobre-img{
         height: 31vh;
-        width: 37vw;
+        width: 38vw;
     }
 }
 @media(max-width:1400px){
@@ -734,6 +739,9 @@ nav a:hover::before{
 @media(max-width:1023px){
     .my-portfolio h2{
         font-size: 2.2rem;
+    }
+    .my-portfolio h2::before{
+        top: 3rem;
     }
     .portfolio{
         flex-direction: column;
@@ -759,8 +767,6 @@ nav a:hover::before{
     }
 }
 /* FIN MEDIA-QUERIES PORTFOLIO */
-
-
 /* CONTACTO */
 .contacto{
     background-color: var(--color-naranja-claro);
