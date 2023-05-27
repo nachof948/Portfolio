@@ -703,6 +703,11 @@ nav a:hover::before{
 /* FIN TABLET */
 
 /* CELULAR */
+@media (max-width: 477px){
+    .my-services h2 {
+    font-size: 2rem;
+}
+}
 @media (max-width:415px){
     .servicio p{
         font-size: 1.05rem;
@@ -842,6 +847,7 @@ nav a:hover::before{
         width: 38vw;
     }
 }
+/* TABLET */
 @media(max-width:1023px){
     .my-portfolio h2{
         font-size: 2.2rem;
@@ -877,6 +883,39 @@ nav a:hover::before{
         height: 31vh;
     }
 }
+/* FIN TABLET */
+
+/* CELULAR */
+@media (max-width:714px){
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 25vh;
+    }
+}
+@media (max-width:600px){
+    .sobre-img p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:553px){
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        width: 90vw;
+        height: 23.5vh;
+    }
+    .sobre-img p{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width: 477px){
+    .my-portfolio h2 {
+    font-size: 2rem;
+}
+}
+
+/* FIN CELULAR */
 /* FIN MEDIA-QUERIES PORTFOLIO */
 /* CONTACTO */
 .contacto{
