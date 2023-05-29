@@ -596,12 +596,26 @@ nav a:hover::before{
 }
 @media (max-width:433px){
     .parrafo-naranja{
-        font-size: 0.96rem;
+        font-size: 0.9rem;
     }
     .sobremi-textos p{
         font-size: 0.8rem;
     }
 }
+@media (max-width: 431px){
+    .sobremi-textos h2 {
+    font-size: 2rem;
+    }
+}
+@media (max-width:391px){
+    .parrafo-naranja{
+        font-size: 0.85rem;
+    }
+    .img-sobremi img{
+        width: 19.5rem;
+    }
+}
+
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES SOBRE-MI */
 
