@@ -147,11 +147,16 @@ nav a:hover::before{
         cursor: pointer;
     }
 }
-/* FIN TABLET */
-/* CELULAR */
 @media (max-width:890px){
     .encabezado{
         width: 92%;
+    }
+}
+/* FIN TABLET */
+/* CELULAR */
+@media (max-width: 376px) {
+    .encabezado{
+        width: 98%;
     }
 }
 /* FIN CELULAR */
@@ -599,7 +604,7 @@ nav a:hover::before{
         font-size: 0.9rem;
     }
     .sobremi-textos p{
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
 }
 @media (max-width: 431px){
@@ -615,7 +620,16 @@ nav a:hover::before{
         width: 19.5rem;
     }
 }
-
+@media (max-width: 376px){
+    .about-me{
+        width: 98%;
+    }
+}
+@media (max-width: 347px){
+    .parrafo-naranja{
+        font-size: 0.78rem;
+    }
+}
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES SOBRE-MI */
 
@@ -715,7 +729,7 @@ nav a:hover::before{
 }
 @media(max-width:1138px){
     .servicios-textos{
-        width: 95%;
+        width: 98%;
     }
 }
 /* TABLET */
@@ -764,11 +778,30 @@ nav a:hover::before{
     font-size: 2rem;
 }
 }
-@media (max-width:415px){
+@media (max-width:426px){
+    .servicios{
+        gap: 1.5rem;
+    }
+    .servicio{
+        flex-basis: 90%;
+    }
     .servicio p{
         font-size: 1.05rem;
     }
 }
+@media (max-width:376px){
+    .my-services{
+        width: 98%;
+    }
+    .servicio h3{
+        font-size: 1.5rem;
+    }
+    .servicio img{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES MIS-SERVICIOS */
 
@@ -970,7 +1003,11 @@ nav a:hover::before{
     font-size: 2rem;
 }
 }
-
+@media (max-width:376px){
+    .my-portfolio{
+        width: 98%;
+    }
+}
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES PORTFOLIO */
 /* CONTACTO */
@@ -1244,6 +1281,14 @@ textarea::placeholder{
     }
     .contacto-redes i{
         font-size: 1.3rem;
+    }
+}
+@media (max-width:376px){
+    .contact {
+        width: 98%;
+    }
+    .formulario{
+        width: 94vw;
     }
 }
 /* FIN CELULAR */
