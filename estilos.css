@@ -1271,7 +1271,14 @@ textarea::placeholder{
 }
 @media (max-width:500px) {
     .formulario{
-        height: 38vh;
+        height: 20rem;
+    }
+    .formulario input{
+        padding: 1rem 0.6rem;
+    }
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 1rem;
     }
     .contacto-titulo h2{
         font-size: 1.5rem;
@@ -1286,9 +1293,6 @@ textarea::placeholder{
     }
 }
 @media (max-width:441px) {
-    .formulario{
-        height: 36vh;
-    }
     .contacto-titulo h2{
         font-size: 1.3rem;
     }
@@ -1308,6 +1312,18 @@ textarea::placeholder{
     .formulario{
         width: 94vw;
     }
+    .contacto-titulo h2{
+        font-size: 1.17rem;
+    }
+}
+@media (max-width:340px){
+    .formulario input{
+        padding: 0.8rem 0.6rem;
+    }
+    input::placeholder,
+    textarea::placeholder{
+        font-size: 0.9rem;
+    }
 }
 /* FIN CELULAR */
 
@@ -1320,9 +1336,19 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 3rem 0rem;
 }
 footer p{
     color: var(--color-blanco);
 }
 /* FIN FOOTER */
+
+/* MEDIA-QUERIES FOOTER */
+
+/* CELULAR */
+@media (max-width: 320px){
+    footer p{
+        font-size: 0.9rem;
+    }
+}
+/* FIN CELULAR */
