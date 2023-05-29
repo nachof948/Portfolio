@@ -1003,9 +1003,27 @@ nav a:hover::before{
     font-size: 2rem;
 }
 }
+@media (max-width:401px){
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 20vh;
+    }
+    .sobre-img p{
+        font-size: 1.5rem;
+    }
+}
 @media (max-width:376px){
     .my-portfolio{
         width: 98%;
+    }
+    .my-portfolio h2{
+        margin-bottom: 1rem;
+    }
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        width: 95vw;
     }
 }
 /* FIN CELULAR */
