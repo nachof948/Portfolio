@@ -383,6 +383,48 @@ nav a:hover::before{
         height: 27rem;
     }
 }
+@media (max-width: 431px){
+    .hero-textos h1{
+        font-size: 2.4rem;
+    }
+    .hero-textos p{
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+    .redes-hero ul{
+        gap: 2rem;
+    }
+    .redes-hero i{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:397px){
+    .hero-textos{
+        gap: 1.3rem;
+    }
+    .hero-textos h1{
+        font-size: 2.1rem;
+    }
+    .hero-textos p{
+        font-size: 0.6rem;
+    }
+    .hero-imagen img{
+        width: 19rem;
+        height: 24rem;
+    }
+    .hero-textos button{
+        padding: 0.5rem 1.2rem;
+    }
+}
+@media (max-width: 350px){
+    .hero-textos h1{
+        font-size: 1.9rem;
+    }
+    .hero-textos p{
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+    }
+}
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES HERO */
 
@@ -1139,7 +1181,7 @@ textarea::placeholder{
 }
 @media (max-width: 700px){
     .formulario{
-        width: 90vw;
+        width: 91vw;
     }
 }
 /* FIN TABLET */
@@ -1159,6 +1201,9 @@ textarea::placeholder{
     }
 }
 @media (max-width:500px) {
+    .formulario{
+        height: 38vh;
+    }
     .contacto-titulo h2{
         font-size: 1.5rem;
     }
@@ -1172,6 +1217,9 @@ textarea::placeholder{
     }
 }
 @media (max-width:441px) {
+    .formulario{
+        height: 36vh;
+    }
     .contacto-titulo h2{
         font-size: 1.3rem;
     }
