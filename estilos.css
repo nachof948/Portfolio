@@ -685,6 +685,12 @@ nav a:hover::before{
     margin-top: 0.5rem;
     font-size: 1.1rem;
 }
+.servicio:hover{
+    background-color: var(--color-naranja-claro);
+}
+.servicio:hover p{
+    color: var(--color-blanco);
+}
 .svg-blanco{
     display: none;
 }
@@ -700,11 +706,17 @@ nav a:hover::before{
 .branding .svg-naranja{
     display: none;
 }
-.servicio:hover{
-    background-color: var(--color-naranja-claro);
+.branding:hover{
+    background-color: var(--color-gris-oscuro);
 }
-.servicio:hover p{
-    color: var(--color-blanco);
+.branding:hover p{
+    color: var(--color-gris-claro);
+}
+.branding:hover .svg-blanco{
+    display: none;
+}
+.branding:hover .svg-naranja{
+    display: block;
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
