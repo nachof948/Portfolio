@@ -914,6 +914,7 @@ nav a:hover::before{
 .circulos span:hover{
     background-color: var(--color-naranja-claro);
 }
+
 /* FIN PORTFOLIO */
 
 /* MEDIA-QUERIES PORTFOLIO */
@@ -1303,7 +1304,7 @@ textarea::placeholder{
 }
 @media (max-width:441px) {
     .contacto-titulo h2{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .contactos i,
     .contactos p,
