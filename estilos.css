@@ -688,6 +688,18 @@ nav a:hover::before{
 .svg-blanco{
     display: none;
 }
+.servicio:nth-child(2){
+    background-color: var(--color-naranja-claro);
+}
+.servicio:nth-child(2) p{
+    color: var(--color-blanco);
+}
+.servicio:nth-child(2) .svg-blanco{
+    display: block;
+}
+.servicio:nth-child(2) .svg-naranja{
+    display: none;
+}
 .servicio:hover{
     background-color: var(--color-naranja-claro);
 }
