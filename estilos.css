@@ -849,7 +849,7 @@ nav a:hover::before{
 }
 .portfolio img{
     width: 38vw;
-    height: 35.5vh;
+    height: 20.5rem;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -858,7 +858,7 @@ nav a:hover::before{
     color: var(--color-blanco);
     background-color: var(--color-gris-oscuro);
     width: 38vw;
-    height: 35.5vh;
+    height: 20.5rem;
     border-radius: 10px;
     top: 0rem;
     opacity: 0.8;
@@ -872,7 +872,7 @@ nav a:hover::before{
     color: var(--color-blanco);
     background-color: transparent;
     width: 38vw;
-    height: 35.5vh;
+    height: 20.5rem;
     border-radius: 10px;
     top: 0rem;
     display: flex;
@@ -922,14 +922,14 @@ nav a:hover::before{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 33vh;
+        height: 18rem;
     }
 }
 @media (max-width:1457px) {
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 31vh;
+        height: 16rem;
         width: 38vw;
     }
 }
@@ -942,7 +942,7 @@ nav a:hover::before{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 24vh;
+        height: 13rem;
         width: 38vw;
     }
 }
@@ -962,8 +962,8 @@ nav a:hover::before{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        width: 70vw;
-        height: 35vh;
+        width: 75vw;
+        height: 22rem;
     }
     .sobre-img p{
         font-size: 2.5rem;
@@ -979,7 +979,7 @@ nav a:hover::before{
     .fondo-img,
     .sobre-img{
         width: 80vw;
-        height: 31vh;
+        height: 18rem;
     }
 }
 /* FIN TABLET */
@@ -989,7 +989,7 @@ nav a:hover::before{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 25vh;
+        height: 18rem;
     }
 }
 @media (max-width:600px){
@@ -1002,7 +1002,7 @@ nav a:hover::before{
     .fondo-img,
     .sobre-img{
         width: 90vw;
-        height: 23.5vh;
+        height: 18rem;
     }
     .sobre-img p{
         font-size: 1.9rem;
@@ -1011,13 +1011,18 @@ nav a:hover::before{
 @media (max-width: 477px){
     .my-portfolio h2 {
     font-size: 2rem;
-}
+    }
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        height: 15rem;
+    }
 }
 @media (max-width:401px){
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 20vh;
+        height: 14rem;
     }
     .sobre-img p{
         font-size: 1.5rem;
