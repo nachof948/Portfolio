@@ -688,38 +688,35 @@ nav a:hover::before{
 .svg-blanco{
     display: none;
 }
-.servicio:nth-child(2){
+.branding{
     background-color: var(--color-naranja-claro);
 }
-.servicio:nth-child(2) p{
+.branding p{
     color: var(--color-blanco);
 }
-.servicio:nth-child(2) .svg-blanco{
+.branding .svg-blanco{
     display: block;
 }
-.servicio:nth-child(2) .svg-naranja{
+.branding .svg-naranja{
     display: none;
 }
 .servicio:hover{
     background-color: var(--color-naranja-claro);
+}
+.servicio:hover p{
+    color: var(--color-blanco);
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
     transform: rotateY(180deg);
 }
 .web:hover .svg-blanco,
-.ux-ui:hover .svg-blanco,
-.branding:hover .svg-blanco{
+.ux-ui:hover .svg-blanco{
     display: block;
 }
 .web:hover .svg-naranja,
-.ux-ui:hover .svg-naranja,
-.branding:hover .svg-naranja{
+.ux-ui:hover .svg-naranja{
     display: none;
-}
-.servicio:hover img,
-.servicio:hover p{
-    color: var(--color-blanco);
 }
 .servicio img{
     width: 7rem;
