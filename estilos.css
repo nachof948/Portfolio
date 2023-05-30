@@ -207,7 +207,7 @@ nav a:hover::before{
 }
 .hero-imagen img{
     width: 31rem;
-    height: 39rem;
+    height: 41rem;
 }
 .imagen-fondo{
     position: absolute;
@@ -215,12 +215,12 @@ nav a:hover::before{
                    /* border-radius: 44% 56% 10% 90% / 39% 52% 48% 61%; */ /* POSIBLES */
                    /* border-radius: 44% 56% 10% 90% / 39% 63% 37% 61%; */ /* POSIBLES */
     border-radius: 51% 49% 10% 90% / 38% 63% 37% 62%; /* DEFINITIVO */
-    height: 23.6rem;
-    width: 29.6rem;
-    top: 14.53rem;
-    right: 7rem;
+    height: 24rem;
+    width: 28.5rem;
+    top: 13.4rem;
+    right: 6rem;
     z-index:-1;
-    transform: rotate(1.7deg);
+    transform: rotate(-2deg);
 }
 .redes-hero{
     flex: 10%;
