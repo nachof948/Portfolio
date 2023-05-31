@@ -206,8 +206,8 @@ nav a:hover::before{
     z-index: 3;
 }
 .hero-imagen img{
-    width: 31rem;
-    height: 41rem;
+    width: 30.5rem;
+    height: 40rem;
 }
 .imagen-fondo{
     position: absolute;
@@ -328,7 +328,7 @@ nav a:hover::before{
         font-size: 1rem;
     }
     .hero-imagen img{
-            width: 26rem;
+            width: 24rem;
             height: 32rem;
     }
     .redes-hero ul{
@@ -384,7 +384,7 @@ nav a:hover::before{
         letter-spacing: 3px;
     }
     .hero-imagen img{
-        width: 22rem;
+        width: 21rem;
         height: 27rem;
     }
 }
@@ -705,18 +705,6 @@ nav a:hover::before{
 }
 .branding .svg-naranja{
     display: none;
-}
-.branding:hover{
-    background-color: var(--color-gris-oscuro);
-}
-.branding:hover p{
-    color: var(--color-gris-claro);
-}
-.branding:hover .svg-blanco{
-    display: none;
-}
-.branding:hover .svg-naranja{
-    display: block;
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
