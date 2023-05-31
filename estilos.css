@@ -665,7 +665,7 @@ nav a:hover::before{
     gap: 2rem;
     padding: 1rem 0.5rem 5rem;
     width: 20rem;
-    height: 19rem;
+    height: 18.5rem;
     transition: all 150ms;
     cursor: pointer;
 }
@@ -686,6 +686,12 @@ nav a:hover::before{
 }
 .svg-blanco{
     display: none;
+}
+.branding .svg-blanco,
+.branding .svg-naranja{
+    width: 6.4rem;
+    height: 6.4rem;
+    margin-bottom: 0.54rem;
 }
 .branding{
     background-color: var(--color-naranja-claro);
@@ -733,6 +739,11 @@ nav a:hover::before{
 /* FIN MIS SERVICIOS */
 
 /* MEDIA-QUERIES MIS-SERVICIOS */
+@media (max-width:1759px){
+    .servicio{
+        height: 17rem;
+    }
+}
 @media (max-width:1400px) {
     .servicios-textos{
         width: 90%;
