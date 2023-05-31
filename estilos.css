@@ -666,7 +666,7 @@ nav a:hover::before{
     padding: 1rem 0.5rem 5rem;
     width: 20rem;
     height: 19rem;
-    transition: all 100ms;
+    transition: all 150ms;
     cursor: pointer;
 }
 .servicio h3{
@@ -698,6 +698,18 @@ nav a:hover::before{
 }
 .branding .svg-naranja{
     display: none;
+}
+.branding:hover{
+    background-color: var(--color-gris-oscuro);
+}
+.branding:hover p{
+    color: var(--color-gris-claro);
+}
+.branding:hover .svg-blanco{
+    display: none;
+}
+.branding:hover .svg-naranja{
+    display: block;
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
