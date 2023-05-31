@@ -763,7 +763,15 @@ nav a:hover::before{
         font-size: 1.05rem;
     }
 }
+@media (max-width:1500px){
+    .servicio h3{
+        font-size: 1.6rem;
+    }
+}
 @media (max-width:1400px) {
+    .servicio h3{
+        font-size: 1.4rem;
+    }
     .servicios-textos{
         width: 90%;
     }
@@ -772,6 +780,9 @@ nav a:hover::before{
     }
 }
 @media(max-width:1138px){
+    .servicio h3{
+        font-size: 1.2rem;
+    }
     .servicios-textos{
         width: 98%;
     }
