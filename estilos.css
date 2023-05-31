@@ -241,15 +241,8 @@ nav a:hover::before{
 .redes-hero i{
     background-color: var(--color-blanco);
     border-radius: 50%;
-    padding: 0.4rem 0.6rem;
+    padding: 0.4rem 0.55rem 0.4rem 0.52rem;
     font-size: 1.5rem;
-}
-.redes-hero img{
-    background-color: var(--color-blanco);
-    border-radius: 50%;
-    padding: 0.5rem 0.6rem;
-    width: 24px;
-    height: 24px;
 }
 /* FIN HERO */
 /* MEDIA-QUERIES HERO */
@@ -1098,7 +1091,7 @@ nav a:hover::before{
     color: var(--color-naranja-claro);
     background-color: var(--color-negro);
     border-radius: 50%;
-    padding: 0.6rem 0.69rem;
+    padding: 0.48rem 0.55rem 0.5rem 0.52rem;
     font-size: 1.5rem;
     border: 1px solid var(--color-negro);
     transition: all 250ms;
