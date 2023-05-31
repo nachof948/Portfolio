@@ -671,7 +671,9 @@ nav a:hover::before{
 }
 .servicio h3{
     color: var(--color-blanco);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 .servicio p{
     color: var(--color-gris-claro);
@@ -691,7 +693,7 @@ nav a:hover::before{
 .branding .svg-naranja{
     width: 5.85rem;
     height: 5.85rem;
-    margin: 0.7rem 0rem 0.7rem;
+    margin: 0.7rem 0rem 0.15rem;
 }
 .branding{
     background-color: var(--color-naranja-claro);
@@ -705,6 +707,14 @@ nav a:hover::before{
 .branding .svg-naranja{
     display: none;
 }
+.branding .svg-blanco,
+.branding .svg-naranja{
+    transform: rotateY(180deg);
+}
+.web .svg-blanco,
+.web .svg-naranja{
+    margin-bottom: -0.55rem;
+}
 .branding:hover{
     background-color: var(--color-gris-oscuro);
 }
@@ -716,10 +726,6 @@ nav a:hover::before{
 }
 .branding:hover .svg-naranja{
     display: block;
-}
-.branding .svg-blanco,
-.branding .svg-naranja{
-    transform: rotateY(180deg);
 }
 .web:hover .svg-blanco,
 .ux-ui:hover .svg-blanco{
@@ -742,6 +748,19 @@ nav a:hover::before{
 @media (max-width:1759px){
     .servicio{
         height: 17rem;
+    }
+}
+@media (max-width:1613px){
+    .servicio{
+        height: 16rem;
+    }
+    .servicio p{
+        font-size: 1.05rem;
+    }
+}
+@media (max-width:1482px){
+    .servicio p{
+        font-size: 1.05rem;
     }
 }
 @media (max-width:1400px) {
