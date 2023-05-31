@@ -689,9 +689,9 @@ nav a:hover::before{
 }
 .branding .svg-blanco,
 .branding .svg-naranja{
-    width: 6.4rem;
-    height: 6.4rem;
-    margin-bottom: 0.54rem;
+    width: 5.85rem;
+    height: 5.85rem;
+    margin: 0.7rem 0rem 0.3rem;
 }
 .branding{
     background-color: var(--color-naranja-claro);
