@@ -691,7 +691,7 @@ nav a:hover::before{
 .branding .svg-naranja{
     width: 5.85rem;
     height: 5.85rem;
-    margin: 0.7rem 0rem 0.3rem;
+    margin: 0.7rem 0rem 0.7rem;
 }
 .branding{
     background-color: var(--color-naranja-claro);
