@@ -697,6 +697,7 @@ nav a:hover::before{
 }
 .branding{
     background-color: var(--color-naranja-claro);
+    border: 1px solid var(--color-naranja-claro);
 }
 .branding p{
     color: var(--color-blanco);
@@ -723,6 +724,23 @@ nav a:hover::before{
 .branding:hover .svg-naranja{
     display: block;
 }
+/* .web:hover + .branding,
+.ux-ui:hover + .branding{
+    background-color: var(--color-gris-oscuro);
+    border: 1px solid var(--color-gris-oscuro);
+}
+.web:hover + .branding p,
+.ux-ui:hover + .branding p{
+    color: var(--color-gris-claro);
+}
+.web:hover + .branding .svg-blanco,
+.ux-ui:hover + .branding .svg-blanco{
+    display: none;
+}
+.web:hover + .branding .svg-naranja,
+.ux-ui:hover + .branding .svg-naranja{
+    display: block;
+} */
 .web:hover .svg-blanco,
 .ux-ui:hover .svg-blanco{
     display: block;
