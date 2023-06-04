@@ -685,6 +685,9 @@ footer p{
     .header-izq{
         gap: 4rem;
     }
+    .encabezado{
+        width: 85%;
+    }
 }
 /* TABLET */
 @media (max-width:1023px) {
@@ -708,7 +711,7 @@ footer p{
 /* CELULAR */
 @media (max-width: 376px) {
     .encabezado{
-        width: 98%;
+        width: 95%;
     }
 }
 /* FIN CELULAR */
@@ -762,6 +765,9 @@ footer p{
     }
     .hero-textos p{
         font-size: 0.7rem;
+    }
+    .hero{
+        width: 85%;
     }
 }
 /* TABLET */
@@ -885,11 +891,14 @@ footer p{
 }
 @media (max-width: 350px){
     .hero-textos h1{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
     .hero-textos p{
         font-size: 0.7rem;
         letter-spacing: 1px;
+    }
+    .hero-imagen img{
+        width: 18rem;
     }
 }
 /* FIN CELULAR */
@@ -917,6 +926,11 @@ footer p{
     .sobremi-textos button{
         padding: 0.9rem 2rem;
         font-size: 0.9rem;
+    }
+}
+@media (max-width:1079px){
+    .about-me{
+        width: 85%;
     }
 }
 /* TABLET */
@@ -1003,12 +1017,12 @@ footer p{
         font-size: 0.85rem;
     }
     .img-sobremi img{
-        width: 19.5rem;
+        width: 18rem;
     }
 }
 @media (max-width: 376px){
     .about-me{
-        width: 98%;
+        width: 95%;
     }
 }
 @media (max-width: 347px){
@@ -1060,6 +1074,11 @@ footer p{
     }
     .servicios-textos{
         width: 98%;
+    }
+}
+@media (max-width:1079px){
+    .my-services{
+        width: 85%;
     }
 }
 /* TABLET */
@@ -1129,7 +1148,7 @@ footer p{
 }
 @media (max-width:376px){
     .my-services{
-        width: 98%;
+        width: 95%;
     }
     .servicio h3{
         font-size: 1.5rem;
@@ -1170,6 +1189,11 @@ footer p{
     .sobre-img{
         height: 13rem;
         width: 38vw;
+    }
+}
+@media (max-width:1079px){
+    .my-portfolio{
+        width: 85%;
     }
 }
 /* TABLET */
@@ -1233,6 +1257,10 @@ footer p{
     .sobre-img p{
         font-size: 1.9rem;
     }
+    .circulos span{
+        height: 0.9rem;
+        width: 0.9rem;
+    }
 }
 @media (max-width: 477px){
     .my-portfolio h2 {
@@ -1256,7 +1284,7 @@ footer p{
 }
 @media (max-width:376px){
     .my-portfolio{
-        width: 98%;
+        width: 95%;
     }
     .my-portfolio h2{
         margin-bottom: 1rem;
@@ -1264,7 +1292,8 @@ footer p{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        width: 95vw;
+        width: 90vw;
+        height: 10rem;
     }
 }
 /* FIN CELULAR */
@@ -1299,6 +1328,11 @@ footer p{
     }
     .contacto-titulo h2{
         font-size: 1.85rem;
+    }
+}
+@media (max-width:1079px){
+    .contact{
+        width: 85%;
     }
 }
 /* TABLET */
@@ -1411,13 +1445,13 @@ footer p{
 }
 @media (max-width:376px){
     .contact {
-        width: 98%;
+        width: 95%;
     }
     .formulario{
-        width: 94vw;
+        width: 90vw;
     }
     .contacto-titulo h2{
-        font-size: 1.17rem;
+        font-size: 1rem;
     }
 }
 @media (max-width:340px){
