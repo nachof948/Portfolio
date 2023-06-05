@@ -831,7 +831,7 @@ footer p{
         font-size: 2.8rem;
     }
 }
-@media (max-width:470px) {
+@media (max-width:485px) {
     .hero-textos h1{
         font-size: 2.6rem;
     }
@@ -844,9 +844,9 @@ footer p{
         height: 27rem;
     }
 }
-@media (max-width: 431px){
+@media (max-width: 442px){
     .hero-textos h1{
-        font-size: 2.4rem;
+        font-size: 2.35rem;
     }
     .hero-textos p{
         font-size: 0.7rem;
@@ -864,7 +864,7 @@ footer p{
         gap: 1.3rem;
     }
     .hero-textos h1{
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
     .hero-textos p{
         font-size: 0.6rem;
@@ -887,6 +887,25 @@ footer p{
     }
     .hero-imagen img{
         width: 18rem;
+    }
+}
+@media (max-width: 320px) {
+    .hero-textos h1{
+        font-size: 1.5rem;
+    }
+    .hero-textos p{
+        font-size: 0.5rem;
+        letter-spacing: 0.5px;
+    }
+    .hero-imagen img{
+        width: 15rem;
+        height: 20rem;
+    }
+    .redes-hero ul{
+        gap: 0.9rem;
+    }
+    .redes-hero i{
+        font-size: 1.3rem;
     }
 }
 /* FIN CELULAR */
@@ -1018,6 +1037,20 @@ footer p{
         font-size: 0.78rem;
     }
 }
+@media (max-width: 320px){
+    .img-sobremi img{
+        width: 14rem;
+    }
+    .sobremi-textos h2 {
+        font-size: 1.3rem
+        }
+    .sobremi-textos h2::before{
+        top: 2rem;
+    }
+    .parrafo-naranja{
+        font-size: 0.6rem;
+    }
+}
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES SOBRE-MI */
 
@@ -1146,6 +1179,27 @@ footer p{
         height: 6rem;
     }
 }
+@media (max-width: 320px){
+    .my-services h2{
+        font-size: 1.3rem;
+    }
+    .my-services h2::before{
+        top: 2rem;
+    }
+    .servicio{
+        height: 17rem;
+    }
+    .servicio h3{
+        font-size: 1.2rem;
+    }
+    .servicio p{
+        font-size: 0.9rem;
+    }
+    .servicio img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
 
 /* FIN CELULAR */
 /* FIN MEDIA-QUERIES MIS-SERVICIOS */
@@ -1167,7 +1221,7 @@ footer p{
     }
 }
 @media(max-width:1400px){
-    .sobre-img p{
+    .sobre-img h3{
         font-size: 2rem;
     }
 }
@@ -1203,7 +1257,7 @@ footer p{
         width: 75vw;
         height: 22rem;
     }
-    .sobre-img p{
+    .sobre-img h3{
         font-size: 2.5rem;
     }
 }
@@ -1227,11 +1281,11 @@ footer p{
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 18rem;
+        height: 16rem;
     }
 }
 @media (max-width:600px){
-    .sobre-img p{
+    .sobre-img h3{
         font-size: 2rem;
     }
 }
@@ -1240,7 +1294,7 @@ footer p{
     .fondo-img,
     .sobre-img{
         width: 90vw;
-        height: 18rem;
+        height: 17rem;
     }
     .sobre-img p{
         font-size: 1.9rem;
@@ -1250,23 +1304,18 @@ footer p{
         width: 0.9rem;
     }
 }
-@media (max-width: 477px){
+@media (max-width: 481px){
     .my-portfolio h2 {
     font-size: 1.8rem
     }
     .portfolio img,
     .fondo-img,
     .sobre-img{
-        height: 15rem;
+        height: 12rem;
     }
 }
 @media (max-width:401px){
-    .portfolio img,
-    .fondo-img,
-    .sobre-img{
-        height: 14rem;
-    }
-    .sobre-img p{
+    .sobre-img h3{
         font-size: 1.5rem;
     }
 }
@@ -1282,6 +1331,20 @@ footer p{
     .sobre-img{
         width: 90vw;
         height: 10rem;
+    }
+}
+@media (max-width: 320px){
+    .my-portfolio h2{
+        font-size: 1.3rem;
+    }
+    .my-portfolio h2::before{
+        top: 2rem;
+    }
+    .portfolio img,
+    .fondo-img,
+    .sobre-img{
+        width: 90vw;
+        height: 8rem;
     }
 }
 /* FIN CELULAR */
@@ -1442,7 +1505,7 @@ footer p{
         font-size: 0.9rem;
     }
     .contacto-redes i{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 @media (max-width:376px){
@@ -1466,6 +1529,18 @@ footer p{
     input::placeholder,
     textarea::placeholder{
         font-size: 0.9rem;
+    }
+}
+@media (max-width: 320px){
+    .contacto-titulo h2{
+        font-size: 0.9rem;
+    }
+    .formulario{
+        padding: 1.8rem 0.1rem;
+    }
+    .medio-contacto a,
+    .medio-contacto p{
+        font-size: 0.75rem;
     }
 }
 /* FIN CELULAR */
