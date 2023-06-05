@@ -631,16 +631,7 @@ footer p{
 /* ==================MEDIA - QUERIES================== */
 
 /* MEDIA-QUERIES HEADER */
-@media (max-width:1116px) {
-    nav a{
-        font-size: 0.9rem;
-    }
-    .encabezado button{
-        padding: 0.9rem 2rem;
-        font-size: 0.9rem;
-    }
-}
-@media (max-width: 1290px) {
+@media (max-width: 1365px) {
     nav{
         gap: 5rem;
     }
@@ -651,6 +642,20 @@ footer p{
 @media (max-width: 1146px) {
     nav{
         gap: 4.5rem;
+    }
+}
+@media (max-width:1255px) {
+    nav{
+        gap: 4.5rem;
+    }
+}
+@media (max-width:1116px) {
+    nav a{
+        font-size: 0.9rem;
+    }
+    .encabezado button{
+        padding: 0.9rem 2rem;
+        font-size: 0.9rem;
     }
 }
 @media (max-width:1079px){
@@ -693,31 +698,36 @@ footer p{
 /* FIN MEDIA-QUERIES HEADER */
 
 /* MEDIA-QUERIES HERO */
-@media (max-width:1668px){
+@media (max-width:1780px){
     h1{
-        font-size: 4rem;
+        font-size: 3.95rem;
     }
 }
 @media (max-width:1551px){
+    h1{
+        font-size: 3.4rem;
+    }
     .hero-imagen img{
         width: 26rem;
         height: 33rem;
     }
 }
-@media (max-width:1451px){
-    h1{
-        font-size: 3.6rem;
-    }
+@media (max-width:1550px){
+    
 }
 @media (max-width:1358px){
     .hero-imagen img{
         width: 22rem;
         height: 28rem;
     }
+    
 }
-@media (max-width:1290px) {
+@media (max-width:1400px) {
     h1{
-        font-size: 3.2rem;
+        font-size: 3rem;
+    }
+    .hero-textos p{
+        font-size: 0.8rem;
     }
 }
 @media (max-width:1194px) {
@@ -726,12 +736,9 @@ footer p{
         height: 25rem;
     }
 }
-@media (max-width:1146px) {
+@media (max-width:1160px) {
     h1{
         font-size: 2.9rem;
-    }
-    .hero-textos p{
-        font-size: 0.8rem;
     }
 }
 @media (max-width:1079px){
